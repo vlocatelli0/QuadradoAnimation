@@ -1,0 +1,46 @@
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: animacao;
+    animation-duration: 8s;
+    position: relative;
+    
+}
+@keyframes animacao{
+
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    }
+
+    25%{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transform: translateX(400px);
+    }
+        
+
+    50%{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        transform: translateY(300px) translateX(400px);
+        
+    }
+
+    75%{
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        transform: translateY(300px) translateX(0px);
+    }
+
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    }
+}
